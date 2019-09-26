@@ -1,0 +1,166 @@
+/*Constatnts*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*David Start*/
+nav{
+margin: 10px 0 10px 10px;
+}
+header{
+    background-image: url(../Bilder/header_img.jpg);
+    border: solid black 1px;
+    overflow: hidden;
+}#Header_icon{
+    float: left;
+    padding: 10px;
+    
+}#header_icon img{
+    height: 55px;
+    width: 55px;
+}
+#Grupp_Name{
+    border: solid white 1px;
+    text-align: center;
+    color: white;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: right;
+}#Mainmenu{
+    list-style: none;
+}#Mainmenu>li{
+    float: left;
+    margin-top: 10px;
+}#Mainmenu>li a{
+    color: white;
+    padding: 15px;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+}
+#Mainmenu>li a:hover{
+    background: rgba(128, 25, 130, .4);
+}
+/*David End*/
+/*Nu jävlar blir det flygplan*/
+/*Gunnar Start*/
+main {
+    background-color: rgb(173, 136, 136);
+}
+.container0 {
+    width: 760px;
+    height: 150px;
+    margin: auto;
+    font-size: 18px;
+    background-color: grey;
+    color: white;
+    padding-left: 0;
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+
+}
+
+.container0 p {
+    padding: 20px;
+}
+
+.container1,.container2{
+    width: 760px;
+    height:480px;
+    display: flex;
+    border: 2px white solid;
+    margin: auto;
+
+}
+.box1,.box2,.box3,.box4 {
+    flex: 1;
+}
+.box2,.box4 {
+    border-left: 2px white solid;
+}
+.container1 {
+    color: white;
+}
+.namn1,.namn2,.namn3,.namn4 {
+
+    padding: 10px 0px 0px 10px;
+}
+.box1 {
+    background-color: rgb(2, 75, 2);
+}
+.box2 {
+    background-color: black;
+}    
+.box3 {
+    background-color: #ddd;
+}
+.box4 {
+    background-color: grey;
+}
+/*Bildinställningar*/
+.bild1 img,.bild2 img,.bild3 img,.bild4 img {
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: white 1px solid;
+}
+/*Gunnar End*/
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background: black;
+    color: white;
+    margin: 0px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 350px;
+}
+
+
+
+
+.foot1 figure img {
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.foot2 figure img {
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.foot3 figure img {
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.foot4 figure img {
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+figure {
+    padding: 0px;
+    margin: 0px;
+}
+.material-icons {
+    position: relative;
+    top:7px;
+    margin-right:5px;
+
+}

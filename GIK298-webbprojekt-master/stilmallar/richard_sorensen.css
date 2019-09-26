@@ -1,0 +1,170 @@
+html {
+    font-size: 14px;
+    font-family: helvetica neue, Arial, Helvetica, sans-serif
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        height: 768px;
+        width: 1366px;
+    }
+    
+    /* Header Nav */
+    
+    header nav .logo a {
+        background-image: url("../Bilder/RM-logo.png");
+        background-size: 100px;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        text-indent: -99999999999px;
+        background-repeat: no-repeat;
+        top: -40px;
+        position: relative;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    header {
+        padding: 10px;
+        height: 100px;
+        background-color: black;
+    }
+    header a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    nav ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+    nav li {
+        display: inline; 
+        margin: 30px;
+        
+    }
+    
+    /* Section */
+    
+    div {
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    /* Feature */
+    
+    .feature {
+        background-image:url("../Bilder/SB.jpg");
+        background-size: 100%;
+        background-position: center;
+        color: white;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        background-repeat: no-repeat;
+        height:768px;
+    }
+    .feature figure {
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        width: 200px;
+        font-size: 20px;
+    }
+    .feature figure img {
+        border: 1px solid white;
+        border-radius: 50%;
+        box-shadow: gray 0 0 10px;
+        width: 200px;
+    }
+    
+    /* Feature2 */
+    
+    .feature2 {
+        background-color:#ddd;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        height:400px;
+        
+    }
+    .feature2 figure {
+        text-align: center;
+        text-transform: uppercase;
+        width: 300px;
+        font-size: 20px;
+        margin:auto;
+    }
+    .feature2 figure img {
+        border: 1px solid white;
+        box-shadow: gray 0 0 10px;
+        width: 300px;
+        
+    }
+    
+    /* Feature 3 om mej */
+    
+    
+    .feature3 {
+        background: black;
+        color: white;
+        height: 300px;
+    } 
+    
+    /* Column layout */
+    
+    .column-layout {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 0px 0px 40px 0px;
+        background: #ddd;
+    }
+    .main-column {
+        flex: 1;
+        text-align: center;
+        background: grey;
+        margin: 20px;
+        border: 1px solid white;
+        box-shadow: gray 0 0 10px;
+        border-radius: 10px;
+    }
+    .sidebar1{
+        flex:1;
+        text-align: center;
+        background: white;
+        color: black;
+        margin: 20px;
+        border: 1px solid black;
+        box-shadow: gray 0 0 10px;
+        border-radius: 10px;
+    }
+    .sidebar2 {
+        flex:1;
+        text-align: center;
+        background: black;
+        color: white;
+        margin: 20px;
+        border: 1px solid white;
+        box-shadow: gray 0 0 10px;
+        border-radius: 10px;
+    }
+    
+    /* Footer */
+    
+    footer {
+        background: black;
+        color: gray;
+        font-size: 14px;
+        padding: 20px 20px;
+        text-align: center;
+    }
+    

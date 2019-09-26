@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../bilder/try2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    line-height: 1.4em;
+}
+.meny{
+    top: 0;
+    background-color: #333;
+    width: 932px;
+    margin: auto;
+    padding: 12px;
+    position: sticky;
+    border: white 2px solid;
+    text-align: center;
+}
+.meny a{
+    padding-right: 25px;
+}
+.link{
+    text-decoration: none;
+    display: inline-block;
+}
+a{
+    color: aliceblue;
+    
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: chartreuse;
+}
+.circle
+ {
+    border-radius: 50%;
+}
+h3 {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.info {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.container,.container2,.container3,.container5{
+    display: flex;
+    width: 960px;
+    height: 320px;
+    margin: auto;
+    background-color: #333;
+}
+.container div{
+    border: white 3px solid;   
+}
+.container2 div,.container3 div,.container5 div{
+    border: white 3px solid;
+}
+.box1{
+    flex: 1; 
+}
+.box1 img {
+    height: 310px;
+    width: 310px;
+}
+.box2{
+    flex: 3;
+    
+}
+.footer1{
+    border: white 3px solid;
+    display: flex;
+    width: 923px;
+    height: 40px;
+    margin: auto;
+    background-color: #333;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 16px;
+    color: grey;
+}
+.container4 {
+    display: flex;
+    width: 954px;
+    margin: auto;
+    background-color: #333;
+    border-left: white 3px solid;
+    border-right: white 3px solid;
+}
+.box3{
+    font-size: 34px;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.thumbnail:active {
+    width:500px;
+    height: 500px;
+    transform: scale(1.5);
+    margin: 0 auto;
+    cursor: zoom-out;
+}
+.thumbnail{
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+    transition: .2s;
+    cursor: zoom-in;
+}

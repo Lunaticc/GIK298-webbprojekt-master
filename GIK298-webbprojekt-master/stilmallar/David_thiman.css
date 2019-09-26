@@ -1,0 +1,164 @@
+/*Constants*/
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../Bilder/background-1.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    overflow: hidden;
+}
+html{
+    max-width: 1366px;
+    font-size: 16px;
+}hr{
+    margin-left: -5px;
+    border: 1px solid;
+    border-color: rgba(33, 33, 33, .6);
+}
+/*Constant End / Header start*/
+nav{
+    overflow: hidden;
+    background: rgba(33, 33, 33, .4)
+}.Headerlogo{
+    margin-top: 33px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+}
+/* headerLists*/
+ul.ulname{
+    list-style: none;
+}
+li.Name{
+    float: left;
+    position: relative;
+    padding-top: 10px;
+}
+.Name a{
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid lightblue;
+    border-right: 1px solid lightblue;
+    padding: 20px;
+    margin-top: 5px;
+    display: block;
+    color: white;
+}
+.Name a:hover{
+    background: rgba(2, 119, 189, .5);
+    transition: 500ms;
+}
+
+/*HeaderHeadings*/
+.whole-header h1{
+    float: right;
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    color: rgba(244, 244, 244, .6);
+    margin-top: 2px;
+}
+/*Body Main*/
+.whole-box{
+    height: 650px;
+    width: 1340px;
+    border: white 1px solid;
+}
+.mainbody{
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    border: yellow 1px solid;
+    margin-top: 5px;
+    height: 500px;
+    width: 1000px;
+}.mainbody h3{
+    color: rgb(95, 224, 214);
+    text-align: center;
+}
+.Picturebox{
+    color: rgba(244, 244, 244, .5);
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 2px;
+    height: 460px;
+    width: 300px;
+    padding: 3px 3px 15px 3px;
+    background: rgba(33, 33, 33, .1)
+}
+.descriptionbox{
+    float: left;
+    margin-left: 5px;
+}
+.intresse-1{
+    margin-top: 28px;
+    border: 1px solid white;
+    background: rgba(33, 33, 33, 1);
+    clear:both;
+    float:left;
+    padding-bottom: 50px;
+}.intresse-2{
+    border: 1px solid darkgray;
+    margin-top: 28px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    background: rgba(33, 33, 33, 1);
+    float:left;
+}.intresse-1 img, .intresse-2 img{
+    max-width: 240px;
+}
+.Interests{
+    margin-top: 20px;
+    margin-left: 10px;
+    clear:both;
+    float: left;
+}.intrpar{
+    clear: both;
+    float: left;
+}
+#Bongobox{
+    position: fixed;
+    left: 1200px;
+    top: 300px;
+    color: white;
+}
+#Bongobox img{
+    height: 30px;
+    position: relative;
+    left: 25px;
+}
+/*Clearing tab/constatns in main/footer*/
+#Clearing{
+    clear: both;
+}
+.descriptionbox, .Footer-listing, .Interests{
+    Color: white;
+}
+/*End of Clearing / start of footer*/
+.infotab{
+    height: 30px;
+    width: 1366px;
+}
+.Footerul{
+    list-style-type: none;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Footer-listing{
+    float: left;
+    margin: 0 130px;
+    color: rgba(244, 244, 244, .6);
+}
