@@ -72,13 +72,11 @@ li.Name{
 .whole-box{
     height: 650px;
     width: 1340px;
-    border: white 1px solid;
 }
 .mainbody{
     margin-left: 10px;
     float: left;
     position: relative;
-    border: yellow 1px solid;
     margin-top: 5px;
     height: 500px;
     width: 1000px;
