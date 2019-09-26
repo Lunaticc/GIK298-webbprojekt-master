@@ -12,10 +12,11 @@ header{
     background-image: url(../Bilder/header_img.jpg);
     border: solid black 1px;
     overflow: hidden;
+    border: white solid 1px;
+    max-height: 60px;
 }#Header_icon{
     float: left;
     padding: 10px;
-    
 }#header_icon img{
     height: 55px;
     width: 55px;
@@ -24,8 +25,9 @@ header{
     border: solid white 1px;
     text-align: center;
     color: white;
-    margin-right: 15px;
-    margin-top: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
     float: right;
 }#Mainmenu{
     list-style: none;
@@ -35,8 +37,9 @@ header{
 }#Mainmenu>li a{
     color: white;
     padding: 15px;
-    border-left: white 1px solid;
-    border-right: white 1px solid;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-left: 10px;
 }
 #Mainmenu>li a:hover{
     background: rgba(128, 25, 130, .4);
