@@ -74,24 +74,22 @@ body {
 .box1,.box2,.box3,.box4 {
     flex: 1;
 }
-.container1 {
-    color: white;
-}
 .namn1,.namn2,.namn3,.namn4 {
 
     padding: 10px 0px 0px 10px;
 }
-.box1 {
-    background-color: rgba(2, 75, 2, .85);
-    
-}
 .box2 {
+    background-color: rgba(2, 75, 2, .85);
+    color: white;
+}
+.box4 {
     background-color: rgba(0, 0, 0, .85);
+    color: white;
 }    
 .box3 {
     background-color: rgba(221, 221, 221, .85);
 }
-.box4 {
+.box1 {
     background-color: rgba(128, 128, 128, .85);
 }
 /*Bildinställningar*/

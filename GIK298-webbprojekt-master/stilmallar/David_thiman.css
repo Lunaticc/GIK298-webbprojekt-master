@@ -106,12 +106,10 @@ li.Name{
     background: rgba(33, 33, 33, 1);
     clear:both;
     float:left;
-    padding-bottom: 50px;
 }.intresse-2{
     border: 1px solid darkgray;
     margin-top: 28px;
     margin-left: 30px;
-    padding-bottom: 50px;
     background: rgba(33, 33, 33, 1);
     float:left;
 }.intresse-1 img, .intresse-2 img{
@@ -125,12 +123,6 @@ li.Name{
 }.intrpar{
     clear: both;
     float: left;
-}
-#Bongobox{
-    position: fixed;
-    left: 1200px;
-    top: 300px;
-    color: white;
 }
 #Bongobox img{
     height: 30px;
