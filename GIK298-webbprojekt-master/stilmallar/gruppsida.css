@@ -11,7 +11,6 @@ margin: 10px;
 header{
     background-image: url(../Bilder/header_img.jpg);
     background-image: linear-gradient(to right, black, rgba(255, 121, 22));
-    
     overflow: hidden;
     max-height: 60px;
 }#Header_icon{
@@ -22,12 +21,11 @@ header{
     width: 55px;
 }
 #Grupp_Name{
-    border: solid white 1px;
     text-align: center;
     color: white;
     padding: 10px;
-    border-radius: 15px;
     float: right;
+    margin-top: -5px;
 }#Mainmenu{
     list-style: none;
 }#Mainmenu>li{
@@ -39,6 +37,7 @@ header{
     border: 1px solid white;
     border-radius: 15px;
     margin-left: 10px;
+    text-decoration: none;
 }
 #Mainmenu>li a:hover{
     background: rgba(128, 25, 130, .4);
@@ -75,9 +74,6 @@ body {
 .box1,.box2,.box3,.box4 {
     flex: 1;
 }
-.box2,.box4 {
-    border-left: 10px rgba(red, green, blue, alpha) solid;
-}
 .container1 {
     color: white;
 }
@@ -93,10 +89,10 @@ body {
     background-color: rgba(0, 0, 0, .85);
 }    
 .box3 {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, .85);
 }
 .box4 {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, .85);
 }
 /*Bildinställningar*/
 .bild1 img,.bild2 img,.bild3 img,.bild4 img {
