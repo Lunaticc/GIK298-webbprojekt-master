@@ -10,7 +10,8 @@ margin: 10px;
 }
 header{
     background-image: url(../Bilder/header_img.jpg);
-    border: solid black 1px;
+    background-image: linear-gradient(to right, black, rgba(255, 121, 22));
+    border: solid black 1p x;
     overflow: hidden;
     max-height: 60px;
 }#Header_icon{
@@ -45,23 +46,24 @@ header{
 /*David End*/
 /*Nu jävlar blir det flygplan*/
 /*Gunnar Start*/
-main {
-    background-color: rgb(173, 136, 136);
+body {
+    background-image: url(../Bilder/MainBackground.jpg);
 }
 .container0 {
     width: 760px;
     height: 150px;
     margin: auto;
+    background-image: linear-gradient(rgba(190, 124, 0, 0.712), rgba(255, 255, 255, .2));
     font-size: 18px;
-    background-color: grey;
+    margin-bottom: 5px;
     color: white;
     padding-left: 0;
-    border-left: 2px white solid;
-    border-right: 2px white solid;
+
 
 }
 
 .container0 p {
+    margin-top: 5px;
     padding: 20px;
 }
 

@@ -21,10 +21,10 @@ main, header {
     border: 1px solid #fff;
     width:350px;
     height: 300px;
-    margin-right:0;
+    margin-right:50px;
     margin-top: 25px;
     margin-bottom: 50px;
-    margin-left:200px;
+    margin-left:50px;
 
 }
 
@@ -80,12 +80,16 @@ a:hover{
 }
 .intressen{
     display:flex;
-    width:100%;
+    padding-left:10px;
+    padding-right:-50px;
     font-size:25px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
 }
+
 ul{
     list-style-type:none;
+    text-align:center;
 }
 li{
     display: inline;
