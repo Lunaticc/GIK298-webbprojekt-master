@@ -71,19 +71,21 @@ a:hover{
 .bild-grupp2{
     height:250px;
     width:300px;
-    margin-left:7em;
-     margin-top:10px;
+    margin-left:0;
+    margin-right:5.5em;
+    margin-top:10px;
     box-shadow: #ddd 5px -2px 5px;
+    margin-bottom:100px;
 }
 .bild-grupp2:hover{
     transform: scale(1.1, 1.1);
 }
 .intressen{
     display:flex;
-    padding-left:10px;
-    padding-right:-50px;
+    margin-left:100px;
+    margin-right:170px;
     font-size:25px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 
