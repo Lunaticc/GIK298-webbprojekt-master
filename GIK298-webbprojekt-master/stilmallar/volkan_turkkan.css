@@ -80,9 +80,9 @@ a:hover{
 }
 .intressen{
     display:flex;
-    width:1000px;
-    justify-content: space-evenly;
+    width:100%;
     font-size:25px;
+    justify-content: space-around;
 }
 ul{
     list-style-type:none;
