@@ -103,12 +103,6 @@ body {
 }
 /*This is gonna be nice!*/
 /*Gunnar End*/
-
-
-
-
-
-
 /* Footer */
 
 footer {
@@ -121,9 +115,6 @@ footer {
     flex-direction: row;
     height: 350px;
 }
-
-
-
 
 .foot1 figure img {
     width: 100px;
