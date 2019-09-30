@@ -110,7 +110,7 @@ li.Name{
     border: 1px solid darkgray;
     margin-top: 28px;
     margin-left: 30px;
-    background: rgba(33, 33, 33, 1);
+    background: rgba(33, 33, 33, .4);
     float:left;
 }.intresse-1 img, .intresse-2 img{
     max-width: 240px;
