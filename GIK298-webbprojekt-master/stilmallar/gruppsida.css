@@ -40,7 +40,7 @@ header{
     text-decoration: none;
 }
 #Mainmenu>li a:hover{
-    background: rgba(128, 25, 130, .4);
+    background: rgba(0, 0, 0, 0.4);
 }
 /*David End*/
 /*Nu jävlar blir det flygplan*/
@@ -53,14 +53,17 @@ body {
     height: 150px;
     margin: auto;
     font-size: 18px;
-    margin-bottom: 5px;
     color: white;
     padding-left: 0;
+    margin-bottom: -6px;
 }
 
 .container0 p {
-    margin-top: 5px;
+    border-radius: 10px;
     padding: 20px;
+    margin-top: 5px;
+    border: double 8px;
+    border-color: rgb(255, 255, 255);
 }
 
 .container1,.container2{
@@ -68,8 +71,17 @@ body {
     height:530px;
     display: flex;
     margin: auto;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
 
 }
+.container1 {
+    border-top: white 1px solid;
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
 .box1,.box2,.box3,.box4 {
     flex: 1;
 }
@@ -80,6 +92,7 @@ body {
 .box2 {
     background-color: rgba(2, 75, 2, .85);
     color: white;
+    border-top-right-radius: 10px;
 }
 .box4 {
     background-color: rgba(0, 0, 0, .85);
@@ -90,6 +103,7 @@ body {
 }
 .box1 {
     background-color: rgba(128, 128, 128, .85);
+    border-top-left-radius: 10px;
 }
 /*Bildinställningar*/
 .bild1 img,.bild2 img,.bild3 img,.bild4 img {
@@ -105,6 +119,7 @@ body {
 /* Footer */
 
 footer {
+    border-top: 1px solid #fff;
     background: black;
     color: white;
     margin: 0px;
