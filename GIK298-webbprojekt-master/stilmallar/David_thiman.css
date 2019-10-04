@@ -103,18 +103,16 @@ li.Name{
 }
 .intresse-1{
     margin-top: 28px;
-    /*border: 1px solid white;*/
     background: rgba(33, 33, 33, 1);
     clear:both;
     float:left;
 }.intresse-2{
-    /*border: 1px solid darkgray;*/
     margin-top: 28px;
     margin-left: 30px;
     background: rgba(33, 33, 33, .4);
     float:left;
 }.intresse-1 img, .intresse-2 img{
-    max-width: 120px;
+    max-width: 180px;
 }
 .Interests{
     margin-top: 20px;
